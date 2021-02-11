@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
 
@@ -17,22 +23,26 @@
 <body>
 
 	<!--header-->
-	<header>
-		<div class="header-main">
+	<header id="header-main">
+		<div class="header-container">
 			<img src="images/logo.svg" alt="logo">
 			<button>Try it free</button>
+			<br>
 		</div>
 	</header>
  
   	<!--main page-->
 	<section>
-		<div class="main">
-		<h1>Build The Community Your Fans Will Love</h1>
-		<p>Huddle re-imagines the way we build communities. You have a voice, but so does 
-		  your audience. Create connections with your users as you engage in genuine discussion.</p>
+		<div id="section-main">
+			<div class="section-container-1">
+				<h1>Build The Community Your Fans Will Love</h1>
+				<p style="font-weight: 600;">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+				<button>Get Started For Free</button>
+			</div>
 		<br><br>
-		<button>Get Started For Free</button>
-    	<br><br>
+	</section>
+
+	<section>
 		<img src="images/screen-mockups.svg" alt="screen-mockups">
       	<br>
       	<br>
@@ -90,7 +100,7 @@
 				</div>
 			</div>
 
-			<div class="build community">
+			<div class="build-community">
 				<h2>Ready To Build Your Community?</h2>
 				<button>Get Started For Free</button>	
 			</div>
